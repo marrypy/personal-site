@@ -105,11 +105,12 @@ hr {
 }
 .hero-layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   align-items: center;
   min-height: 72vh;
 }
+
 
 .hero-photo {
   border-radius: 18px;
@@ -130,7 +131,7 @@ hr {
   margin-top: 6px;
 }
 
-/* ✅ Mobile: stack image above text */
+/* mobile */
 @media (max-width: 900px) {
   .hero-layout {
     grid-template-columns: 1fr;

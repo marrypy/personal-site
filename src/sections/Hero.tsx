@@ -5,12 +5,7 @@ export default function Hero() {
   return (
     <Section id="home">
       <div className="hero-layout">
-        <div className="hero-photo">
-            <img
-            src={`/me.jpg`}
-            alt="Profile"
-            />
-        </div>
+        
 
         <div className="hero-text">
           <div>
