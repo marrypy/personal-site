@@ -6,7 +6,10 @@ export default function Hero() {
     <Section id="home">
       <div className="hero-layout">
         <div className="hero-photo">
-        <img src="/personal-site/me.jpg" alt="Profile" />
+        <img
+        src={`/me.jpg`}
+        alt="Profile"
+        />
         </div>
 
         <div className="hero-text">
