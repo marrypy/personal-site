@@ -1,0 +1,42 @@
+.glow-wrapper {
+    position: relative;
+    border-radius: 16px;
+    padding: 1px;
+  }
+  
+  .glow-wrapper::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(
+      45deg,
+      #ff0080,
+      #ff8c00,
+      #40e0d0,
+      #7c7cff,
+      #ff0080
+    );
+    filter: blur(12px);
+    opacity: 0.6;
+    z-index: -1;
+    animation: glowShift 6s linear infinite;
+  }
+  
+  .card {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.1rem;
+    box-shadow: var(--shadow);
+  }
+  
+  @keyframes glowShift {
+    0% {
+      filter: blur(12px) hue-rotate(0deg);
+    }
+    100% {
+      filter: blur(12px) hue-rotate(360deg);
+    }
+  }
+  
