@@ -30,8 +30,6 @@ export type ExperienceItem = {
     links: [
       { label: "GitHub", href: "https://github.com/marrypy" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/marry-kassa/" },
-      { label: "Research Resume", href: "https://drive.google.com/file/d/12I0sntuqS7BxiHM_HWeOI5U0eHxDYhor/view?usp=sharing" },
-      { label: "SWE/MLE Resume", href: "https://drive.google.com/file/d/1bgWBGzMHDyoZyeqwgY78haaPohYBGO6I/view?usp=sharing" }
     ]
   }
   
