@@ -6,7 +6,7 @@ export default function Hero() {
     <Section id="home">
       <div className="hero-layout">
         <div className="hero-photo">
-          <img src="/me.jpg" alt="Profile" />
+        <img src={`${import.meta.env.BASE_URL}me.jpg`} alt="Profile" />
         </div>
 
         <div className="hero-text">

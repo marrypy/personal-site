@@ -49,7 +49,7 @@ export default function Experience() {
                   </div>
                 </div>
 
-                {/* Bullet points */}
+                {/* Bulletsss */}
                 <ul style={{ paddingLeft: 18, color: "var(--muted)" }}>
                   {item.bullets.map((bullet) => (
                     <li key={bullet} style={{ marginBottom: 6 }}>
