@@ -119,6 +119,15 @@ export type ExperienceItem = {
   
   export const projects: ProjectItem[] = [
     {
+      name: "Stock Market Prediction Game",
+      description:
+        "A simplified Python-based machine learning system that predicts whether a stock's price will go up or down the next trading day, then uses that prediction to power a C++ prediction market game.",
+      tech: ["Python", "C++", "C", "CMake"],
+      links: [
+        { label: "Repository", href: "https://github.com/marrypy/Stock-Market-Prediction-Game" }
+      ]
+    },
+    {
       name: "Star Detection Algorithm",
       description:
         "A novel approach to star detection in noisy astronomical images. Consists of a CNN model that distinguishes celestial objects based on Hough Circle Transform.",
