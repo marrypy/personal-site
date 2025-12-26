@@ -133,7 +133,7 @@ export type ExperienceItem = {
         "A novel approach to star detection in noisy astronomical images. Consists of a CNN model that distinguishes celestial objects based on Hough Circle Transform.",
       tech: ["Python", "OpenCV", "Tensorflow"],
       links: [
-        { label: "Repository", href: "https://github.com/marsjpeg/Star-Detection-Algorithm" }
+        { label: "Repository", href: "https://github.com/marrypy/Star-Detection-Algorithm" }
       ]
     },
       {
@@ -142,7 +142,7 @@ export type ExperienceItem = {
           "A discord bot that teaches users different astronomy facts. Imports more than a dozen REST APIs, mostly from NASA, that provide up to date facts in embedded replies.",
         tech: ["Python", "JSON"],
         links: [
-          { label: "Repository", href: "https://github.com/marsjpeg/ProjectKepler" }
+          { label: "Repository", href: "https://github.com/marrypy/ProjectKepler" }
         ]
       }
   ]
