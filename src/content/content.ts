@@ -121,7 +121,7 @@ export type ExperienceItem = {
     {
       name: "LoRA Optimization",
       description:
-        "LoRA LLM project in Python, improving accuracy of LLM models.",
+        "End-to-end pipeline in Python for improving LLM reliability and accuracy using LoRA fine-tuning, structured data engineering, and benchmark-based evaluation from training.",
       tech: ["Python", "JSON"],
       links: [
         { label: "Repository", href: "https://github.com/marrypy/LoRA-Optimization" }
