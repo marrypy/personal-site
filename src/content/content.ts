@@ -119,6 +119,15 @@ export type ExperienceItem = {
   
   export const projects: ProjectItem[] = [
     {
+      name: "LoRA Optimization",
+      description:
+        "LoRA LLM project in Python, improving accuracy of LLM models.",
+      tech: ["Python", "JSON"],
+      links: [
+        { label: "Repository", href: "https://github.com/marrypy/LoRA-Optimization" }
+      ]
+    },
+    {
       name: "Stock Market Prediction Game",
       description:
         "A simplified Python-based machine learning system that predicts whether a stock's price will go up or down the next trading day, then uses that prediction to power a C++ prediction market game.",
