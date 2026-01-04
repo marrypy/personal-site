@@ -158,6 +158,7 @@ export type ExperienceItem = {
   
   export const awards: AwardItem[] = [
     { title: "Amazon Future Engineer Scholarship Recipient", org: "Amazon", year: "2025" },
+    { title: "Jane Street NCWIT Visit Program", org: "Jane Street", year: "2025" },
     { title: "NCWIT AiC National Winner (Top 1%)", org: "NCWIT", year: "2025" },
     { title: "NCWIT AiC National Honorable Mention (Top 10%)", org: "NCWIT", year: "2024" }
   ]
