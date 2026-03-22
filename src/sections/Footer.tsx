@@ -1,6 +1,7 @@
 import Container from "../components/Container"
 
 export default function Footer() {
+  const year = new Date().getFullYear()
   return (
     <footer
       style={{
@@ -11,7 +12,8 @@ export default function Footer() {
     >
       <Container>
         <p className="muted" style={{ fontSize: 14 }}>
-        © 2025 Marry Kassa, All Rights Reserved.        </p>
+          © {year} Marry Kassa, All Rights Reserved.
+        </p>
       </Container>
     </footer>
   )

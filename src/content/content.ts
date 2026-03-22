@@ -24,7 +24,7 @@ export type ExperienceItem = {
     name: "Marry Kassa",
     tagline: "CS @ Yale • Software Developer",
     bio:
-      "Currently a freshman at Yale studying Computer Science, as well as a Software Developer for various organizations.",
+      "Currently a freshman at Yale studying Computer Science, as well as a Software Developer for various organizations, all while working on my own startup.",
     location: "Detroit, MI • New Haven, CT",
     email: "marry.kassa@yale.edu",
     links: [
@@ -54,29 +54,29 @@ export type ExperienceItem = {
     {
         role: "Software Development Engineer Intern",
         org: "Amazon",
-        dates: "Incoming May 2025",
+        dates: "Incoming June 2026",
         bullets: [
-          "Amazon Team Assignment TBD."
+          "Amazon Prime Team."
         ]
       },
       {
-        role: "Web Developer Intern",
-        org: "Yale College ASL Department",
-        dates: "November 2025 — Present",
-        tech: ["HTML", "CSS", "Javascript", "WordPress"],
+        role: "Founder & CEO",
+        org: "MindStudy AI",
+        dates: "Feb 2026 — Present",
+        tech: ["React", "Git"],
         bullets: [
-          "Creating ASL history archive website."
+          "Making studying more efficient and effective through wellness measures and burnout detection."
         ]
       },
       {
-      role: "Software Developer",
-      org: "Yale College IT",
-      dates: "September 2025 — Present",
-      tech: ["React", "Python", "Gemini API"],
-      bullets: [
-        "Developing Yale Xplore, an app meant to connect Yale undergrads with academic opportunities."
-      ]
-    },
+        role: "Software Developer",
+        org: "Yale College IT",
+        dates: "September 2025 — Present",
+        tech: ["React", "Python", "Gemini API"],
+        bullets: [
+          "Developing Yale Xplore, an app meant to connect Yale undergrads with academic opportunities."
+        ]
+      },
       {
         role: "Program Mentor",
         org: "Yale Computer Society",
@@ -144,16 +144,7 @@ export type ExperienceItem = {
       links: [
         { label: "Repository", href: "https://github.com/marrypy/Star-Detection-Algorithm" }
       ]
-    },
-      {
-        name: "ProjectKepler",
-        description:
-          "A discord bot that teaches users different astronomy facts. Imports more than a dozen REST APIs, mostly from NASA, that provide up to date facts in embedded replies.",
-        tech: ["Python", "JSON"],
-        links: [
-          { label: "Repository", href: "https://github.com/marrypy/ProjectKepler" }
-        ]
-      }
+    }
   ]
   
   export const awards: AwardItem[] = [
