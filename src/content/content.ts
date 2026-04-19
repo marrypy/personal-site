@@ -22,14 +22,15 @@ export type ExperienceItem = {
   
   export const profile = {
     name: "Marry Kassa",
-    tagline: "CS @ Yale • Software Developer",
+    tagline: "Software Engineer",
     bio:
-      "Currently a freshman at Yale studying Computer Science, as well as a Software Developer for various organizations, all while working on my own startup.",
-    location: "Detroit, MI • New Haven, CT",
+      "Currently a freshman at Yale studying Cognitive & Computer Science, as well as a Software Developer for various organizations, all while working on my own startup.",
+    location: "Detroit, MI",
     email: "marry.kassa@yale.edu",
     links: [
       { label: "GitHub", href: "https://github.com/marrypy" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/marry-kassa/" },
+      { label: "Socials", href: "https://beacons.ai/marrypyy" },
     ]
   }
   
@@ -37,7 +38,7 @@ export type ExperienceItem = {
     categories: [
       {
         label: "Languages",
-        items: ["Python", "JavaScript", "TypeScript", "Java", "HTML", "CSS", "C++", "Swift", "Dart", "Racket"]
+        items: ["Python", "JavaScript", "TypeScript", "Java", "HTML", "CSS", "C++", "C", "Swift", "Dart", "Racket"]
       },
       {
         label: "Frameworks",
@@ -61,11 +62,11 @@ export type ExperienceItem = {
       },
       {
         role: "Founder & CEO",
-        org: "MindStudy AI",
+        org: "MindStudy",
         dates: "Feb 2026 — Present",
         tech: ["React", "Git"],
         bullets: [
-          "Making studying more efficient and effective through wellness measures and burnout detection."
+          "Making studying more efficient and effective through wellness measures and burnout detection. mindstudyai.com"
         ]
       },
       {
