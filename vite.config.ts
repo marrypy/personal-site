@@ -1,8 +1,9 @@
 import { defineConfig } from "vite"
 import react from "@vitejs/plugin-react"
 
-// GitHub Project Page is served at /<repo>/ ; dev server uses "/" for simpler URLs.
+// Relative base: works for custom domain (marrykassa.com) and github.io/<repo>/.
+// Dev server still uses "/" for simpler local URLs.
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === "serve" ? "/" : "/personal-site/"
+  base: command === "serve" ? "/" : "./"
 }))
