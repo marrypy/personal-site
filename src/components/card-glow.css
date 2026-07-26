@@ -2,6 +2,8 @@
     position: relative;
     border-radius: 16px;
     padding: 1px;
+    height: 100%;
+    isolation: isolate;
   }
   
   .glow-wrapper::before {
@@ -21,11 +23,15 @@
     background-size: 300% 300%;
     filter: blur(12px);
     opacity: 0.55;
-    z-index: -1;
+    z-index: 0;
+    pointer-events: none;
     animation: glowShift 8s ease-in-out infinite;
   }
   
   .card {
+    position: relative;
+    z-index: 1;
+    height: 100%;
     background: var(--bg-alt);
     border: 1px solid var(--border);
     border-radius: 16px;

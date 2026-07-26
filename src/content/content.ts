@@ -30,7 +30,6 @@ export type ExperienceItem = {
     links: [
       { label: "GitHub", href: "https://github.com/marrypy" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/marry-kassa/" },
-      { label: "Socials", href: "https://beacons.ai/marrypyy" },
     ]
   }
   
@@ -57,7 +56,7 @@ export type ExperienceItem = {
         org: "Amazon",
         dates: "Incoming June 2026",
         bullets: [
-          "Amazon Prime Team."
+          "Working with the Multichannel Fulfillment department, automating forecast backtesting."
         ]
       },
       {
