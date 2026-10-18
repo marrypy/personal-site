@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <Section id="skills" title="Skills">
       <Container>
-        <div className="grid grid-3">
+        <div className="grid grid-3 skills-grid">
           {skills.categories.map((cat) => (
             <Card key={cat.label}>
               <h3 style={{ fontSize: 16, marginBottom: 10 }}>{cat.label}</h3>

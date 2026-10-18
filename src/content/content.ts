@@ -24,7 +24,7 @@ export type ExperienceItem = {
     name: "Marry Kassa",
     tagline: "Software Engineer",
     bio:
-      "Currently a freshman at Yale studying Cognitive & Computer Science, as well as a Software Developer for various organizations, all while working on my own startup.",
+      "Currently a sophomre at Yale studying Computer Science, as well as a Software Developer for various organizations, all while working on my own startup.",
     location: "Detroit, MI",
     email: "marry.kassa@yale.edu",
     links: [
@@ -38,7 +38,7 @@ export type ExperienceItem = {
     categories: [
       {
         label: "Languages",
-        items: ["Python", "JavaScript", "TypeScript", "Java", "HTML", "CSS", "C++", "C", "Swift", "Dart", "Racket"]
+        items: ["Python", "JavaScript", "TypeScript", "Java", "HTML", "CSS", "C++", "C", "Swift", "Dart", "Racket", "SQL"]
       },
       {
         label: "Frameworks",
@@ -46,39 +46,51 @@ export type ExperienceItem = {
       },
       {
         label: "Tools",
-        items: ["Git", "Linux", "OpenCV", "Visual Studio", "XCode", "PyCharm", "Jupyter Notebook", "WordPress", "WiX", "Figma"]
+        items: ["Git", "Linux", "AWS", "OpenCV", "Visual Studio", "XCode", "PyCharm", "Jupyter Notebook", "WordPress", "WiX", "Figma", "Excel"]
       }
     ]
   }
   
   export const experience: ExperienceItem[] = [
     {
-        role: "Software Development Engineer Intern",
-        org: "Amazon",
-        dates: "Incoming June 2026",
-        bullets: [
-          "Amazon Prime Team."
-        ]
-      },
-      {
-        role: "Founder & CEO",
-        org: "MindStudy",
-        dates: "Feb 2026 — Present",
-        tech: ["React", "Git"],
-        bullets: [
-          "Making studying more efficient and effective through wellness measures and burnout detection. mindstudyai.com"
-        ]
-      },
-      {
-        role: "Software Developer",
-        org: "Yale College IT",
-        dates: "September 2025 — Present",
-        tech: ["React", "Python", "Gemini API"],
-        bullets: [
-          "Developing Yale Xplore, an app meant to connect Yale undergrads with academic opportunities."
-        ]
-      },
-      {
+      role: "Founder & CEO",
+      org: "Isoso Inc.",
+      dates: "Oct 2026 — Present",
+      tech: ["React", "Git"],
+      bullets: [
+        "Built and launched an accessibility-focused developer CLI, reaching 1000+ downloads in the first week by publishing an npm package that helps developers identify web accessibility issues",
+        "Developed a monetizable B2B accessibility platform by building a developer CLI and team dashboard, integrating Supabase for backend infrastructure and Stripe for payments"
+      ]
+    },
+    {
+      role: "Data Analyst",
+      org: "Yale University: Shuttle Services",
+      dates: "June 2026 — Aug 2026",
+      tech: ["Excel"],
+      bullets: [
+        "Collected and analyzed data to improve shuttle service efficiency and customer satisfaction.",
+        "Developed a dashboard to visualize shuttle service data and track key metrics."
+      ]
+    },
+    {
+      role: "Software Development Engineer Intern",
+      org: "Amazon",
+      dates: "June 2026 — Aug 2026",
+      tech: ["TypeScript", "Python", "AWS"],
+      bullets: [
+        "Orchestrating automation pipeline for regional backtesting in the Multichannel Fulfillment Center (MCCF) department, cutting down backtest processing time by over 83%."
+      ]
+    },
+    {
+      role: "Software Developer",
+      org: "Yale Univerity: IT Department",
+      dates: "Sep 2025 — Present",
+      tech: ["React", "Python", "Gemini API"],
+      bullets: [
+        "Deployed Yale University exploration app prototype to connect over 6000 undergraduate students with resources, utilizing Google Gemini API for chatbot and data integration."
+      ]
+    },
+    {
         role: "Program Mentor",
         org: "Yale Computer Society",
         dates: "September 2025 — December 2025",
@@ -149,6 +161,7 @@ export type ExperienceItem = {
   ]
   
   export const awards: AwardItem[] = [
+    { title: "Y-Combinator Startup School", org: "Y-Combinator", year: "2026" },
     { title: "Amazon Future Engineer Scholarship Recipient", org: "Amazon", year: "2025" },
     { title: "Jane Street NCWIT Visit Program", org: "Jane Street", year: "2025" },
     { title: "NCWIT AiC National Winner (Top 1%)", org: "NCWIT", year: "2025" },

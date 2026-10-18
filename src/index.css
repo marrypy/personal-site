@@ -97,6 +97,15 @@ hr {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.skills-grid > .glow-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-grid > .glow-wrapper > .card {
+  flex: 1;
+}
+
 @media (max-width: 900px) {
   .grid-2,
   .grid-3 {
